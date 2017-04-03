@@ -2,7 +2,7 @@
 """
 Created on Mon Apr 03 13:54:47 2017
 
-@author: w00731539
+@author: qiangwennorge
 """
 ''' 
 Given nums = [2,7,11,15], target = 9
