@@ -31,23 +31,11 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        nums.sort()
-        left = 0
-        right = len(nums) - 1
-        while left <= right:
-            if nums[left] < val:
-                left += 1
-            elif nums[right] > val:
-                right -= 1
-            elif nums[left] == val and nums[right] == val:
-                leftelement = left
-                rightelement = len(nums) - 1 - right
-                return leftelement + rightelement
-                break 
-            
-        if val not in nums:
-            return len(nums)
+        while (nums.count(val)!=0):
+            nums.remove(val)
         
+        return len(nums)
+            
         
 f = Solution()
 print f.removeElement([4,5],4)
