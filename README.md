@@ -53,3 +53,32 @@ When coverting a *list* to a *set*, the duplicates will be deleted automatically
 >>> list(set(t) - set(s))
 [8, 5, 6, 7]
 ```
+
+* **Reverse a List**
+
+The following methos show how to reverse the elements in a *list*
+
+..*Method 1: using my_list[::-1]
+
+```
+>>> L = [0,10,20,40]
+>>> L[::-1]
+[40, 20, 10, 0]
+```
+
+...*Method 2: using function _reversed()_
+
+```
+>>> L =[0,10,20,40]
+>>> list(reversed(L))
+[40, 20, 10, 0]
+```
+
+...*Method 3: using _reverse()_
+
+```
+>>> L = [0,10,20,40]
+>>> L.reverse()
+>>> L
+[40, 20, 10, 0]
+```
