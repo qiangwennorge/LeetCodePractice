@@ -39,7 +39,7 @@ def dfsfunc(self, nums, target, index, path, result):
             self.dfsfunc(nums, target - nums[i], i, path + [nums[i]], result)
 ```
 
-* ** Delete Duplicates in List **
+* **Delete Duplicates in List**
 
 When coverting a *list* to a *set*, the duplicates will be deleted automatically.
 
