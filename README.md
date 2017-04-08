@@ -58,7 +58,7 @@ When coverting a *list* to a *set*, the duplicates will be deleted automatically
 
 The following methos show how to reverse the elements in a *list*
 
-..* Method 1: using my_list[::-1]
+⋅⋅* Method 1: using my_list[::-1]
 
 ```
 >>> L = [0,10,20,40]
@@ -66,7 +66,7 @@ The following methos show how to reverse the elements in a *list*
 [40, 20, 10, 0]
 ```
 
-..* Method 2: using function _reversed()_
+⋅⋅* Method 2: using function _reversed()_
 
 ```
 >>> L =[0,10,20,40]
@@ -74,7 +74,7 @@ The following methos show how to reverse the elements in a *list*
 [40, 20, 10, 0]
 ```
 
-..* Method 3: using _reverse()_
+⋅⋅* Method 3: using _reverse()_
 
 ```
 >>> L = [0,10,20,40]
