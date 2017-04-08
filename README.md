@@ -38,3 +38,18 @@ def dfsfunc(self, nums, target, index, path, result):
         for i in xrange(index, len(nums)):
             self.dfsfunc(nums, target - nums[i], i, path + [nums[i]], result)
 ```
+
+* ** Delete Duplicates in List **
+
+When coverting a *list* to a *set*, the duplicates will be deleted automatically.
+
+```
+>>> t = [1, 2, 3, 1, 2, 5, 6, 7, 8]
+>>> t
+[1, 2, 3, 1, 2, 5, 6, 7, 8]
+>>> list(set(t))
+[1, 2, 3, 5, 6, 7, 8]
+>>> s = [1, 2, 3]
+>>> list(set(t) - set(s))
+[8, 5, 6, 7]
+```
