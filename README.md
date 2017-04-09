@@ -4,7 +4,7 @@ This project is trying to store all the Python scripts wrote for the tasks from 
 
 ## Code Notes
 
-* **Two pointers**
+### Two pointers
 
 This method is trying to define two pointers for a list, one starts from the leftmost, and the other starts, and a while loop is used to push these points to traverse to the middle of the list, in this case try to find out the element which fulfills the condition.
 ```
@@ -24,7 +24,7 @@ while left < right:
 
 ```
 
-* **Depth-First Search**
+### Depth-First Search
 
 This algorithm is to traverse all the elements in the giving list *nums* and return the path it has traversed, if the sum of the visited vertices equal to *target*, the path will be added and sent to the result, if the sum of the path it has traversed is equal or below 0, it considers the vertex has a dead end, so thealgorithm backs up to the parent and tries to continue visiting unvisited vertices from there.
 
@@ -39,7 +39,7 @@ def dfsfunc(self, nums, target, index, path, result):
             self.dfsfunc(nums, target - nums[i], i, path + [nums[i]], result)
 ```
 
-* **Delete Duplicates in List**
+### Delete Duplicates in List
 
 When coverting a *list* to a *set*, the duplicates will be deleted automatically.
 
@@ -54,11 +54,11 @@ When coverting a *list* to a *set*, the duplicates will be deleted automatically
 [8, 5, 6, 7]
 ```
 
-* **Reverse a List**
+### Reverse a List
 
 The following methos show how to reverse the elements in a *list*
 
-**Method 1**: using my_list[::-1]
+* Method 1: using my_list[::-1]
 
 ```
 >>> L = [0,10,20,40]
@@ -66,7 +66,7 @@ The following methos show how to reverse the elements in a *list*
 [40, 20, 10, 0]
 ```
 
-**Method 2**: using function _reversed()_
+* Method 2: using function _reversed()_
 
 ```
 >>> L =[0,10,20,40]
@@ -74,7 +74,7 @@ The following methos show how to reverse the elements in a *list*
 [40, 20, 10, 0]
 ```
 
-**Method 3**: using _reverse()_
+* Method 3: using _reverse()_
 
 ```
 >>> L = [0,10,20,40]
