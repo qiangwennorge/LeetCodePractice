@@ -44,7 +44,6 @@ class Solution(object):
             return result
         for i in xrange(index, len(nums)):
             self.dfsfunc(nums, target - nums[i], i, path + [nums[i]], result)
-            print path, path + [nums[i]]
         
 f = Solution()
 print f.combinationSum([2,3,6,7],7)

@@ -36,7 +36,8 @@ class Solution(object):
         while l2.next:
             l2 = l2.next
             num2 = str(l2.val) + num2
-            num3 = list(str(int(num1) + int(num2)))
+            
+        num3 = list(str(int(num1) + int(num2)))
     
         n1 = ListNode(int(num3.pop(0)))
         n = n1
